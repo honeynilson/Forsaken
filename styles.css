@@ -1,10 +1,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap"
   rel="stylesheet">
 
-body{
+body {
   background-color: black;
 }
-
+a:visited{
+  color: black;
+}
 #background{
   position: absolute;
   right: 0;
@@ -37,7 +39,7 @@ body{
   font-family: lemonada;
   font-size: 100px;
   font-style: italic;
-  opacity: 80%;
+  opacity: 60%;
   z-index: 3;
   position: absolute;
   left: 30%;
@@ -80,6 +82,7 @@ body{
   transform: translate(-50%, -50%);
   left: 40%;
   top: 73%;
+  opacity: 60%;
 }
 
 #car{
@@ -191,15 +194,258 @@ body{
   font-family: lemonada;
   font-size: 40px;
 }
-
 #are{
   position: absolute;
   left: 35%;
   top: 40%;
 }
+  #are:hover{
+    font-size: 50px;
+  }
 #lost1{
   font-size: 75px;
   position: absolute;
   left: 45%;
   top: 40%;
+  color: black;
+}
+  #lost1:hover{
+    font-size: 85px;
+  }
+#or{
+  position: absolute;
+  left: 50%;
+  top: 55%;
+}
+  #or:hover{
+    font-size: 50px;
+  }
+#lost2{
+  font-size: 75px;
+  position: absolute;
+  left: 65%;
+  top: 56%;
+  color: black;
+}
+  #lost2:hover{
+    font-size: 85px;
+  }
+#you{
+  position: absolute;
+  left: 75%;
+  top: 70%;
+}
+  #you:hover{
+  font-size: 50px;
+  }
+
+#broken{
+  font-family: lemonada;
+  font-size: 30px;
+  top: 20%;
+  position: absolute;
+  left: 25%;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+#leaves{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+  height: 100%;
+  opacity: 0.25;
+  background-size: cover;
+}
+
+
+#dark{
+  width: 110%;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  position: relative;
+}
+#where{
+  color: white;
+  font-family: lemonada;
+  font-size: 40px;
+  position: absolute;
+  left:50%;
+  top:200px;
+  z-index: 2;
+  opacity: 0.1;
+}
+#where:hover{
+  opacity: 0.4;
+  font-size: 45px;
+}
+
+#losing{
+  position: absolute;
+  top: 4000px;
+  opacity: 0.1;
+  font-size: 55px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 10%
+}
+#losing:hover{
+  opacity: 0.4;
+}
+#falling{
+  position: absolute;
+  top: 4800px;
+  opacity: 0.1;
+  font-size: 55px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 40%;
+}
+#falling:hover{
+  opacity: 0.4;
+}
+#deeper{
+  position: absolute;
+  top: 5700px;
+  opacity: 0.1;
+  font-size: 55px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 25%;
+}
+#deeper:hover{
+  opacity: 0.4;
+}
+#darkness{
+  position: absolute;
+  top: 6700px;
+  opacity: 0.1;
+  font-size: 55px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#darkness:hover{
+  opacity: 0.4;
+}
+#abandonedyourself{
+  position: absolute;
+  top: 8000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#abandonedyourself:hover{
+  opacity: 0.3;
+}
+#scrolling{
+  position: absolute;
+  top: 11000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#scrolling:hover{
+  opacity: 0.3;
+}
+#refresh{
+  position: absolute;
+  top: 14000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#refresh:hover{
+  opacity: 0.3;
+}
+#brave{
+  position: absolute;
+  top: 17000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#brave:hover{
+  opacity: 0.3;
+}
+#work{
+  position: absolute;
+  top: 18000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 35%;
+}
+#work:hover{
+  opacity: 0.3;
+}
+#out{
+  position: absolute;
+  top: 18000px;
+  opacity: 0.1;
+  font-size: 40px;
+  font-family: lemonada;
+  color: white;
+  z-index: 3;
+  left: 60.25%;
+}
+#out:hover{
+  opacity: 0.2;
+}
+#freedom{
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -100;
+  width: 120%;
+  opacity: 0.75;
+  background-size: cover;
+}
+#again{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  opacity: 0.6;
+  font-size: 40px;
+  font-family: lemonada;
+}
+#door{
+  position: absolute;
+  left:0;
+  top:0;
+  overflow: hidden;
+  z-index: -100;
+  width: 100%;
+  opacity: 0.75;
+  background-size: cover;
+}
+#window{
+  height: 600px;
+  position: absolute;
+  opacity: 0.6;
+  left: 10%;
+  top: 20%;
 }
